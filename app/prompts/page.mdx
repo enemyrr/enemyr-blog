@@ -1,0 +1,40 @@
+# Writing a Good Prompt
+
+Prompting is the new coding. The logic is the same: garbage in, garbage out. If you give an LLM a vague instruction, don't be surprised when you get a generic result.
+
+Context is king. Treat the AI like a brilliant junior developer who doesn't know your codebase or your preferences.
+
+### The Bad Way
+This is what most people do, and why they think AI is "meh".
+
+```text
+Write code for a button.
+```
+
+**Result:** You'll get a generic HTML button, or maybe a React component if you're lucky. No styling, no props, no context.
+
+### The Good Way
+Be specific. Define the constraints, the tech stack, and the edge cases.
+
+```text
+Create a reusable Button component for a Next.js 14 app using Tailwind CSS and TypeScript.
+
+Requirements:
+- Variants: 'default', 'destructive', 'outline', 'secondary', 'ghost', 'link'.
+- Sizes: 'default', 'sm', 'lg', 'icon'.
+- Props: Extend React.ButtonHTMLAttributes<HTMLButtonElement>.
+- State: Add an 'isLoading' prop that disables the button and shows a spinner icon (lucide-react).
+- Usage: It should be accessible and use forwardRef.
+
+Style it to match a clean, minimal aesthetic (shadcn/ui style).
+```
+
+**Result:** You get a production-ready component that you can drop straight into your project.
+
+### The Mental Model
+Think of a prompt as a function definition.
+- **Parameters:** What inputs are you providing? (Code snippets, error logs).
+- **Body:** What transformation do you want? (Fix, refactor, explain).
+- **Return Type:** What format do you want? (JSON, Markdown, Python code).
+
+Stop guessing. Start specifying.
