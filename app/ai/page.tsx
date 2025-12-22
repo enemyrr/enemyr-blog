@@ -45,7 +45,7 @@ export default function AIPage() {
   };
 
   return (
-    <div className="flex flex-col flex-1 py-4">
+    <div className="flex flex-col flex-1 pt-4">
       <h1 className="text-xl md:text-2xl font-medium mb-4">AI</h1>
 
       <Conversation className="flex-1 overflow-y-auto">
@@ -98,6 +98,7 @@ export default function AIPage() {
           />
         </PromptInputFooter>
       </PromptInput>
+      <span className="text-xs text-muted-foreground mt-2 text-center">AI agents can make mistakes. Please review the results.</span>
     </div>
   );
 }
