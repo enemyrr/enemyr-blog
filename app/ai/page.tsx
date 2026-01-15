@@ -45,7 +45,7 @@ export default function AIPage() {
   };
 
   return (
-    <div className="flex flex-col flex-1 pt-4">
+    <div className="flex flex-col flex-1 pt-4 -mb-16">
       <h1 className="text-xl md:text-2xl font-medium mb-4">AI</h1>
 
       <Conversation className="flex-1 overflow-y-auto">
