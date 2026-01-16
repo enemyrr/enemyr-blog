@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${inter.className} light`}>
       <body className="antialiased tracking-tight">
         <div className="min-h-dvh p-8 md:p-12 lg:p-16 bg-background text-foreground">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-24">
@@ -38,7 +38,7 @@ export default function RootLayout({
                 </span>
               </div>
             </aside>
-            <main className="flex-1 max-w-[650px] pb-16 [&>*:first-child]:mt-0">
+            <main className="flex-1 max-w-[650px] pb-8 [&>*:first-child]:mt-0">
               {children}
             </main>
           </div>
