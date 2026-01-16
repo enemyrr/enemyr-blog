@@ -26,10 +26,22 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className="antialiased tracking-tight">
-        <div className="h-dvh flex flex-col p-8 bg-background text-foreground">
-          <main className="flex-1 flex flex-col w-full max-w-[650px] mx-auto pb-16 md:mt-16">
-            {children}
-          </main>
+        <div className="min-h-dvh p-8 md:p-12 lg:p-16 bg-background text-foreground">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-24">
+            <aside className="md:sticky md:top-12 md:self-start shrink-0">
+              <div className="flex flex-col">
+                <a href="/" className="font-medium text-foreground hover:text-foreground/80">
+                  Andreas Enemyr
+                </a>
+                <span className="text-muted-foreground text-sm">
+                  Stockholm, Sweden
+                </span>
+              </div>
+            </aside>
+            <main className="flex-1 max-w-[650px] pb-16 [&>*:first-child]:mt-0">
+              {children}
+            </main>
+          </div>
           <Analytics />
           {process.env.NODE_ENV === 'development' && <DebugThemeToggle />}
         </div>
