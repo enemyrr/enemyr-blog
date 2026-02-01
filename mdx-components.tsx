@@ -1,6 +1,7 @@
 import React, { ComponentPropsWithoutRef } from 'react';
 import Link from 'next/link';
 import { highlight } from 'sugar-high';
+import { AILink } from '@/components/ai-link';
 
 type HeadingProps = ComponentPropsWithoutRef<'h1'>;
 type ParagraphProps = ComponentPropsWithoutRef<'p'>;
@@ -51,6 +52,14 @@ const components = {
   a: ({ href, children, ...props }: AnchorProps) => {
     const className =
       'transition-colors underline decoration-neutral-500 decoration-1 underline-offset-[2.5px] hover:decoration-neutral-400 dark:hover:decoration-neutral-600';
+    // Intercept /ai links to open the sidebar
+    if (href === '/ai') {
+      return (
+        <AILink className={className} {...props}>
+          {children}
+        </AILink>
+      );
+    }
     if (href?.startsWith('/')) {
       return (
         <Link href={href} className={className} {...props}>
