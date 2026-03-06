@@ -6,7 +6,6 @@ Personal blog and portfolio built with:
 - **Content**: MDX pages with Rust compiler
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com)
 - **Components**: [shadcn/ui](https://ui.shadcn.com)
-- **AI**: [Vercel AI SDK](https://sdk.vercel.ai) with Groq
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
 - **Deployment**: [Vercel](https://vercel.com)
 

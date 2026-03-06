@@ -6,8 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ai-sdk/groq": "^2.0.34",
-    "@ai-sdk/react": "^2.0.126",
     "@next/mdx": "16.1.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-separator": "^1.1.8",
@@ -16,7 +14,6 @@
     "@tailwindcss/postcss": "^4.1.18",
     "@types/mdx": "^2.0.13",
     "@vercel/analytics": "^1.6.1",
-    "ai": "^5.0.124",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -29,7 +26,6 @@
     "streamdown": "^1.6.11",
     "sugar-high": "^0.9.5",
     "tailwind-merge": "^3.4.0",
-    "use-stick-to-bottom": "^1.1.2",
     "vaul": "^1.1.2",
     "zod": "^4.3.6"
   },
