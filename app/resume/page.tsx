@@ -60,9 +60,9 @@ export default function ResumePage() {
         </Entry>
 
         <Entry
-          title="CEO & Founder"
+          title="Founder"
           org="RIBBAN"
-          period="2020 -- 2025"
+          period="2020 -- present"
           url="https://ribban.co"
         >
           <ul>
@@ -110,10 +110,15 @@ export default function ResumePage() {
 
       <Section title="Skills">
         <p className="text-sm text-zinc-600">
-          Product Strategy, UX Design, Sales, System Design, E-commerce, Shopify
+          Technical Discovery & Scoping, API Design & Integrations,
+          Pre-sales, System Design, Product Strategy, UX, E-commerce,
+          Shopify, SaaS, B2B
         </p>
         <p className="mt-1 text-sm text-zinc-500">
-          TypeScript, React, Next.js, Node.js, PostgreSQL, AWS, AI/LLMs
+          TypeScript, React, Next.js, Node.js, PostgreSQL, REST/GraphQL, AWS, AI/LLMs
+        </p>
+        <p className="mt-1 text-sm text-zinc-500">
+          Swedish (native), English (fluent)
         </p>
       </Section>
 
