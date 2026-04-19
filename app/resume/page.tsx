@@ -35,30 +35,12 @@ export default function ResumePage() {
           something a certain way -- the product decisions, the UX, the
           strategy. I love selling things I genuinely believe in. I've designed
           systems end-to-end for signing platforms, AI tools, CRMs managing
-          businesses with 100M+ SEK in revenue, and Shopify stores with 20M+
-          in sales. Code is just the tool.
+          businesses with 100M+ SEK in revenue, and a Shopify store with 200M+
+          SEK in sales. Code is just the tool.
         </p>
       </Section>
 
       <Section title="Experience">
-        <Entry
-          title="Co-founder"
-          org="KORALL"
-          period="2026 -- present"
-          url="https://www.korall.ai"
-        >
-          <ul>
-            <li>
-              Designed the full system and product -- from model training UX to
-              the generation pipeline
-            </li>
-            <li>
-              Spotted the gap where existing AI tools mangle text and branding,
-              and built the product around solving it
-            </li>
-          </ul>
-        </Entry>
-
         <Entry
           title="Product Lead"
           org="sajn"
@@ -91,11 +73,16 @@ export default function ResumePage() {
             </li>
             <li>
               Designed CRM systems for businesses managing 100M+ SEK in revenue
-              and Shopify stores generating 20M+ in sales
+              and a Shopify store generating 200M+ SEK in sales
             </li>
             <li>
               Shipped products across 17+ markets: ESSNCE, Nineteen Student,
               GULD.com, Matpriskollen, EventTjanster
+            </li>
+            <li>
+              Built <a href="https://www.korall.ai" target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-400 underline-offset-2">KORALL</a>, an AI product image platform -- from model
+              training UX to the generation pipeline, solving how existing AI
+              tools mangle text and branding
             </li>
           </ul>
         </Entry>
