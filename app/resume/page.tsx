@@ -31,11 +31,11 @@ export default function ResumePage() {
 
       <Section title="Profile">
         <p>
-          10+ years of creating digital products. I care about why we build
+          10+ years of shipping digital products. I care about why we build
           something a certain way -- the product decisions, the UX, the
           strategy. I love selling things I genuinely believe in. I've designed
           systems end-to-end for signing platforms, AI tools, CRMs managing
-          businesses with 100M+ SEK in revenue, and a Shopify store with 200M+
+          businesses with 100M+ SEK in revenue, and Shopify stores with 200M+
           SEK in sales. Code is just the tool.
         </p>
       </Section>
@@ -47,14 +47,21 @@ export default function ResumePage() {
           period="2025 -- present"
           url="https://www.sajn.se"
         >
+          <p className="italic text-zinc-500">
+            Swedish B2B e-signing platform competing with Scrive and Oneflow
+          </p>
           <ul>
             <li>
-              Designed the entire system architecture, UX, and product strategy
-              from scratch
+              Own product strategy, architecture, and go-to-market for a B2B
+              SaaS targeting Nordic mid-market
             </li>
             <li>
-              Shaped the signing experience to replace the print-scan-email
-              era with AI-driven contract workflows
+              Lead ISO 27001 and eIDAS/QES compliance work, including PDF
+              signing architecture and enterprise security requirements
+            </li>
+            <li>
+              Run sales cycles end-to-end: outbound, discovery, technical
+              scoping, and closing with Swedish SMB and enterprise buyers
             </li>
           </ul>
         </Entry>
@@ -65,24 +72,31 @@ export default function ResumePage() {
           period="2020 -- present"
           url="https://ribban.co"
         >
+          <p className="italic text-zinc-500">
+            Stockholm-based digital product agency, official Shopify Partner
+          </p>
           <ul>
             <li>
-              Founded and grew the agency from zero -- sales, client
-              relationships, and product direction for every project.
-              Official Shopify Partner.
+              Built and scaled a Shopify-focused agency from zero, leading
+              pre-sales, technical scoping, and delivery across 20+ client
+              engagements
             </li>
             <li>
-              Designed CRM systems for businesses managing 100M+ SEK in revenue
-              and a Shopify store generating 200M+ SEK in sales
+              Delivered Shopify Plus implementations including international
+              expansion via Shopify Markets for a Swedish D2C brand launching
+              across DACH and Nordic regions
             </li>
             <li>
-              Shipped products across 17+ markets: ESSNCE, Nineteen Student,
-              GULD.com, Matpriskollen, EventTjanster
+              Architected a CRM handling 100M+ SEK in annual revenue and
+              advised a Shopify merchant generating 200M+ SEK in GMV
             </li>
             <li>
-              Built <a href="https://www.korall.ai" target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-400 underline-offset-2">KORALL</a>, an AI product image platform -- from model
-              training UX to the generation pipeline, solving how existing AI
-              tools mangle text and branding
+              Client portfolio spans D2C, B2B, marketplace, and media verticals
+              across Nordic and international markets
+            </li>
+            <li>
+              Built <a href="https://www.korall.ai" target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-400 underline-offset-2">KORALL</a>, an AI product image platform, from model
+              training UX to the generation pipeline
             </li>
           </ul>
         </Entry>
