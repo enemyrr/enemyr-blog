@@ -52,16 +52,15 @@ export default function ResumePage() {
           </p>
           <ul>
             <li>
+              Grew sajn to 150+ paying customers across Swedish SMB and mid-market segments, running sales cycles end-to-end from outbound through close
+            </li>
+            <li>
               Own product strategy, architecture, and go-to-market for a B2B
               SaaS targeting Nordic mid-market
             </li>
             <li>
-              Lead ISO 27001 and eIDAS/QES compliance work, including PDF
+              Lead ISO 27001 and eIDAS compliance work, including PDF
               signing architecture and enterprise security requirements
-            </li>
-            <li>
-              Run sales cycles end-to-end: outbound, discovery, technical
-              scoping, and closing with Swedish SMB and enterprise buyers
             </li>
           </ul>
         </Entry>

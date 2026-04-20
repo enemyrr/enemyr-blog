@@ -291,6 +291,7 @@ table {
     background: white !important;
     color: black !important;
     font-size: 12pt;
+    padding: 1.5cm !important;
   }
 
   .resume {
@@ -317,7 +318,7 @@ table {
   }
 
   @page {
-    margin: 1.5cm;
+    margin: 0;
   }
 }
 
