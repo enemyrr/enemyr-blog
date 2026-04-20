@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { DebugThemeToggle } from '@/components/debug-theme-toggle';
+import { CommandMenu } from '@/components/command-menu';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
             </header>
             <main className="[&>*:first-child]:mt-0">{children}</main>
           </div>
+          <CommandMenu />
           <Analytics />
           {process.env.NODE_ENV === 'development' && <DebugThemeToggle />}
         </div>
