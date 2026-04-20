@@ -12,9 +12,10 @@ export default function ResumePage() {
         <Image
           src="/andreas-2.png"
           alt="Andreas Enemyr"
-          width={100}
-          height={100}
-          className="object-cover"
+          width={300}
+          height={356}
+          quality={95}
+          className="w-[100px] object-cover"
         />
         <div>
           <h1 className="text-2xl font-semibold">Andreas Enemyr</h1>
@@ -136,7 +137,14 @@ export default function ResumePage() {
       </Section>
 
       <p className="mt-8 text-xs text-zinc-400" data-print-hide>
-        Tip: Press Cmd+P to save as PDF.
+        Tip: Press Cmd+P to save as PDF -- or download it{' '}
+        <a
+          href="/resume.pdf"
+          className="underline decoration-zinc-400 underline-offset-2"
+        >
+          here
+        </a>
+        .
       </p>
     </div>
   );

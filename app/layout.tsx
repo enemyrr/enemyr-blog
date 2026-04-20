@@ -39,7 +39,7 @@ export default function RootLayout({
           </div>
           <CommandMenu />
           <Analytics />
-          {process.env.NODE_ENV === 'development' && <DebugThemeToggle />}
+          {/**{process.env.NODE_ENV === 'development' && <DebugThemeToggle />}*/}
         </div>
       </body>
     </html>

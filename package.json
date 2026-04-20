@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "resume:pdf": "./scripts/generate-resume-pdf.sh"
   },
   "dependencies": {
     "@next/mdx": "16.1.0",
