@@ -1,0 +1,16 @@
+# shortlist
+
+[shortlist](https://github.com/enemyrr/shortlist) is an open-source library for dynamic tool selection in [AI SDK](https://ai-sdk.dev) agents. When an agent has 50, 100, or 200+ tools, handing the model all of them on every step is a problem twice over: it burns context tokens, and it *lowers* tool-calling accuracy — the right tool gets lost in the noise.
+
+shortlist indexes your tools once and, on each step, exposes only the handful that actually match what the user is trying to do.
+
+### What Makes It Different
+
+- **Zero-config default:** Keyword search (BM25 + TF-IDF) that needs no API key and runs in well under a millisecond.
+- **Better with embeddings:** Add an embedding model for semantic search and shortlist fuses it with keyword search automatically.
+- **Drops into the AI SDK:** Use it as a `prepareStep`, as `wrapLanguageModel` middleware, or call `select()` yourself.
+- **Built for agent loops:** Adaptive cutoffs, miss-driven escalation, recently-used tool retention, and related-tool expansion.
+
+It's MIT licensed and free to use — `pnpm install shortlist`.
+
+[github.com/enemyrr/shortlist](https://github.com/enemyrr/shortlist)

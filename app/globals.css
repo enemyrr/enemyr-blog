@@ -8,6 +8,8 @@
 }
 
 :root {
+  --text-color: #1c1c1e;
+  --accent-color: #F9B62D;
   --sh-class: #0550ae;
   --sh-sign: #24292f;
   --sh-string: #0a3069;
@@ -60,7 +62,7 @@ body {
 }
 
 .text-copy {
-  color: rgb(63 63 70);
+  color: var(--text-color);
 }
 
 ul {
@@ -228,7 +230,7 @@ table {
 }
 
 .dark .text-copy {
-  color: rgb(228 228 231);
+  color: var(--text-color);
 }
 
 .dark pre {
@@ -279,7 +281,7 @@ table {
 }
 
 .light .text-copy {
-  color: rgb(63 63 70);
+  color: var(--text-color);
 }
 
 .light pre {
