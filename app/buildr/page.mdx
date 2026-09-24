@@ -1,0 +1,17 @@
+# buildr
+
+[buildr](https://github.com/enemyrr/buildr) is my desktop app for running coding agents in parallel. It's a fork of [Paseo](https://paseo.sh), reshaped around how I work: many agents, each on its own branch, each ending in a pull request.
+
+I write most of my code through agents now. The bottleneck isn't the model, it's keeping track of five of them at once. buildr gives every task a workspace backed by its own git worktree, so agents never step on each other, and I can review and merge without leaving the app.
+
+### What Makes It Different
+
+- **Any agent.** Claude Code, Codex, Copilot, OpenCode, and Pi run side by side through the same interface.
+- **Worktree per task.** Every workspace is isolated, so ten agents can work in the same repo at once.
+- **PR flow built in.** See CI status, open the pull request, merge, and archive the workspace from the header.
+- **An editor-grade Explorer.** File tree, git changes, commits, a Run panel for project scripts, and a terminal on `Cmd+J`.
+- **Small things that add up.** Tab titles generated from the first prompt, provider usage bars in the sidebar, voice dictation in the composer, and one-click import of existing Conductor sessions.
+
+It runs locally on your machine with your tools and config, and ships as a signed, auto-updating macOS app. This site was edited in it.
+
+[github.com/enemyrr/buildr](https://github.com/enemyrr/buildr)
