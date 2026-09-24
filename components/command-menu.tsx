@@ -30,6 +30,10 @@ const projects: Item[] = [
   { label: 'sajn', href: '/sajn', keywords: ['signing'] },
   { label: 'KORALL', href: '/korall', keywords: ['ai', 'product visuals'] },
   { label: 'Kvitty', href: '/kvitty', keywords: ['bookkeeping'] },
+  { label: 'Cerno', href: '/cerno', keywords: ['search', 'ecommerce', 'ai'] },
+  { label: 'Duva', href: '/duva', keywords: ['email', 'gmail', 'inbox'] },
+  { label: 'Quarry', href: '/quarry', keywords: ['database', 'sql', 'macos', 'open source'] },
+  { label: 'buildr', href: '/buildr', keywords: ['agents', 'coding', 'worktrees', 'open source'] },
   { label: 'shortlist', href: '/shortlist', keywords: ['ai sdk', 'tools', 'agents', 'open source'] },
   { label: 'RIBBAN', href: '/ribban', keywords: ['ecommerce', 'agency'] }
 ];
