@@ -297,6 +297,7 @@ table {
 
   .resume {
     max-width: none;
+    zoom: 0.85;
   }
 
   header,
@@ -319,7 +320,8 @@ table {
   }
 
   @page {
-    margin: 1.5cm;
+    size: A4;
+    margin: 1.2cm;
   }
 }
 
