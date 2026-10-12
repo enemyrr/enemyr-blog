@@ -32,36 +32,41 @@ export default function ResumePage() {
 
       <Section title="Profile">
         <p>
-          10+ years of shipping digital products. I care about why we build
-          something a certain way -- the product decisions, the UX, the
-          strategy. I love selling things I genuinely believe in. I've designed
-          systems end-to-end for signing platforms, AI tools, CRMs managing
-          businesses with 100M+ SEK in revenue, and Shopify stores with 200M+
-          SEK in sales. Code is just the tool.
+          Product lead who builds and sells. I took sajn, a Swedish e-signing
+          platform, from zero to 780+ customers and ~100 paying in a year, owning
+          product, compliance, and sales end to end. Before that I founded
+          RIBBAN, a Shopify Partner agency, served as interim CTO for a
+          healthcare company, and sold real estate. I turn
+          customer problems into shipped product.
         </p>
       </Section>
 
       <Section title="Experience">
         <Entry
-          title="Product Lead"
+          title="Product & GTM Lead"
           org="sajn"
-          period="2025 -- present"
+          period="2025 – present"
           url="https://www.sajn.se"
         >
           <p className="italic text-zinc-500">
-            Swedish B2B e-signing platform competing with Scrive and Oneflow
+            Swedish B2B e-signing platform owned by RIBBAN, competing with Scrive and Oneflow
           </p>
           <ul>
             <li>
-              Grew sajn to 150+ paying customers across Swedish SMB and mid-market segments, running sales cycles end-to-end from outbound through close
+              Grew sajn from 0 to 780+ customers and ~100 paying in 12 months
+              (~13% free-to-paid), selling from outbound to close
             </li>
             <li>
-              Own product strategy, architecture, and go-to-market for a B2B
-              SaaS targeting Nordic mid-market
+              Own product, architecture, and go-to-market in a 3-person team
+              targeting Swedish SMB and mid-market
             </li>
             <li>
-              Lead ISO 27001 and eIDAS compliance work, including PDF
-              signing architecture and enterprise security requirements
+              Built the eIDAS-compliant PDF signing architecture, and started
+              ISO 27001 work ahead of a 2027 audit
+            </li>
+            <li>
+              Built <ExternalLink href="https://www.kvitty.se">Kvitty</ExternalLink>,
+              a bookkeeping product with BAS accounts, vouchers, and SIE export
             </li>
           </ul>
         </Entry>
@@ -69,7 +74,7 @@ export default function ResumePage() {
         <Entry
           title="Founder"
           org="RIBBAN"
-          period="2020 -- present"
+          period="2020 – present"
           url="https://ribban.co"
         >
           <p className="italic text-zinc-500">
@@ -77,59 +82,91 @@ export default function ResumePage() {
           </p>
           <ul>
             <li>
-              Built and scaled a Shopify-focused agency from zero, leading
-              pre-sales, technical scoping, and delivery across 20+ client
-              engagements
+              Built the agency from zero to 50+ clients, owning pre-sales,
+              technical scoping, and delivery
             </li>
             <li>
-              Delivered Shopify Plus implementations including international
-              expansion via Shopify Markets for a Swedish D2C brand launching
-              across DACH and Nordic regions
+              Led project teams of up to 15 across subcontractors, designers,
+              and 3D studios
             </li>
             <li>
-              Architected a CRM handling 100M+ SEK in annual revenue and
-              advised a Shopify merchant generating 200M+ SEK in GMV
+              Delivered a Shopify Plus and Shopify Markets rollout across DACH
+              and the Nordics for a Swedish D2C brand
             </li>
             <li>
-              Client portfolio spans D2C, B2B, marketplace, and media verticals
-              across Nordic and international markets
+              Designed and built the Shopify store for essnce, a merchant with
+              200M+ SEK in GMV, from the ground up, and have run it since
             </li>
             <li>
-              Built <a href="https://www.korall.ai" target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-400 underline-offset-2">KORALL</a>, an AI product image platform, from model
-              training UX to the generation pipeline
+              Architected a CRM for a business with 100M+ SEK in annual revenue
+            </li>
+          </ul>
+        </Entry>
+
+        <Entry
+          title="Interim CTO (part-time)"
+          org="Stensjö Vårdresurs"
+          period="2023 – 2025"
+        >
+          <ul>
+            <li>
+              Led system development and technical project management for a
+              Gothenburg healthcare company
             </li>
           </ul>
         </Entry>
 
         <Entry
           title="Real Estate Agent"
-          org="Fastighetsbyran"
-          period="2020 -- 2022"
+          org="Fastighetsbyrån"
+          period="2022 – 2023"
         >
           <ul>
             <li>Sold villas and land in Gothenburg and Marstrand</li>
-            <li>Most meetings booked among rookies in Vastra Gotaland</li>
-            <li>Licensed real estate agent -- high-stakes negotiations and client relationships</li>
+            <li>Most meetings booked among rookies in Västra Götaland</li>
           </ul>
         </Entry>
+      </Section>
+
+      <Section title="Selected builds">
+        <ul className="text-sm text-zinc-600 [&_li]:ml-4 [&_li]:list-disc [&_li]:pl-1 space-y-1">
+          <li>
+            <ExternalLink href="https://cernosearch.com">Cerno</ExternalLink>:
+            AI search for e-commerce that routes each query to keyword or
+            semantic search
+          </li>
+          <li>
+            <ExternalLink href="https://www.korall.ai">KORALL</ExternalLink>:
+            AI product image platform, from model training UX to the generation
+            pipeline
+          </li>
+          <li>
+            <ExternalLink href="https://ribban.co/lab/quarry">Quarry</ExternalLink>:
+            native macOS database client for six database engines
+          </li>
+          <li>
+            <ExternalLink href="https://github.com/enemyrr/shortlist">shortlist</ExternalLink>:
+            open-source library for dynamic tool selection in AI SDK agents
+          </li>
+        </ul>
       </Section>
 
       <Section title="Education">
         <Entry
           title="BSc Real Estate Management"
           org="Karlstad University"
-          period="2018 -- 2021"
+          period="2018 – 2021"
         />
       </Section>
 
       <Section title="Skills">
         <p className="text-sm text-zinc-600">
-          Technical Discovery & Scoping, API Design & Integrations,
-          Pre-sales, System Design, Product Strategy, UX, E-commerce,
-          Shopify, SaaS, B2B
+          Compliance & e-signing (eIDAS, GDPR), B2B sales, Pre-sales,
+          Technical scoping, APIs & integrations, Product strategy, UX,
+          E‑commerce
         </p>
         <p className="mt-1 text-sm text-zinc-500">
-          TypeScript, React, Next.js, Node.js, PostgreSQL, REST/GraphQL, AWS, AI/LLMs
+          TypeScript, React, Next.js, Node.js, PostgreSQL, Swift, AWS, AI/LLMs
         </p>
         <p className="mt-1 text-sm text-zinc-500">
           Swedish (native), English (fluent)
@@ -137,7 +174,7 @@ export default function ResumePage() {
       </Section>
 
       <p className="mt-8 text-xs text-zinc-400" data-print-hide>
-        Tip: Press Cmd+P to save as PDF -- or download it{' '}
+        Tip: Press Cmd+P to save as PDF, or download it{' '}
         <a
           href="/resume.pdf"
           className="underline decoration-zinc-400 underline-offset-2"
@@ -167,6 +204,25 @@ function Section({
   );
 }
 
+function ExternalLink({
+  href,
+  children
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline decoration-zinc-400 underline-offset-2"
+    >
+      {children}
+    </a>
+  );
+}
+
 function Entry({
   title,
   org,
@@ -180,18 +236,7 @@ function Entry({
   url?: string;
   children?: React.ReactNode;
 }) {
-  const orgEl = url ? (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline decoration-zinc-400 underline-offset-2"
-    >
-      {org}
-    </a>
-  ) : (
-    org
-  );
+  const orgEl = url ? <ExternalLink href={url}>{org}</ExternalLink> : org;
 
   return (
     <div className="mb-4">
